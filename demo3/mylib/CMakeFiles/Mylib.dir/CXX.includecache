@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yana/C++/demo3/mylib/mymath.cpp
+mymath.hpp
+/home/yana/C++/demo3/mylib/mymath.hpp
+
+/home/yana/C++/demo3/mylib/mymath.hpp
+
